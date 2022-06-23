@@ -1,6 +1,6 @@
 # yaml-docs
 =========
-[![Go Report Card](https://goreportcard.com/badge/github.com/theEndBeta/yaml-docs)](https://goreportcard.com/report/github.com/theEndBeta/yaml-docs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/andbron/yaml-docs)](https://goreportcard.com/report/github.com/andbron/yaml-docs)
 
 The yaml-docs tool auto-generates documentation from yaml files into markdown files as a table with each of the files
 values, their defaults, and an optional description parsed from comments.
@@ -101,7 +101,7 @@ go build
 Or install from source:
 
 ```bash
-GO111MODULE=on go get github.com/theEndBeta/yaml-docs/cmd/yaml-docs
+GO111MODULE=on go get github.com/andbron/yaml-docs/cmd/yaml-docs
 ```
 
 ## Usage

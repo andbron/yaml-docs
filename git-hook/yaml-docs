@@ -3,7 +3,7 @@
 set -e
 
 if ! command -v yaml-docs > /dev/null 2>&1; then
-    echo "Please install yaml-docs to run the pre-commit hook! https://github.com/theEndBeta/yaml-docs#installation"
+    echo "Please install yaml-docs to run the pre-commit hook! https://github.com/andbron/yaml-docs#installation"
     exit 1
 fi
 

@@ -1,4 +1,4 @@
-module github.com/theEndBeta/yaml-docs
+module github.com/andbron/yaml-docs
 
 go 1.16
 

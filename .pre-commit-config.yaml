@@ -1,5 +1,5 @@
 repos:
-  - repo: https://github.com/theEndBeta/yaml-docs
+  - repo: https://github.com/andbron/yaml-docs
     rev: v1.2.0
     hooks:
       - id: yaml-docs

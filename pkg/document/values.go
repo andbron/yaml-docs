@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/theEndBeta/yaml-docs/pkg/helm"
+	"github.com/andbron/yaml-docs/pkg/helm"
 	"gopkg.in/yaml.v3"
 )
 

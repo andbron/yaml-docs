@@ -37,8 +37,8 @@ signs:
 
 nfpms:
 - vendor: yaml-docs
-  homepage: https://github.com/theEndBeta/yaml-docs
-  maintainer: theEndBeta
+  homepage: https://github.com/andbron/yaml-docs
+  maintainer: andbron
   description: A tool for automatically generating markdown documentation for yaml charts
   license: GNU General Public License v3.0
   formats:
@@ -50,10 +50,10 @@ nfpms:
 
 brews:
   - tap:
-      owner: theEndBeta
+      owner: andbron
       name: homebrew
     folder: Formula
-    homepage: https://github.com/theEndBeta/yaml-docs
+    homepage: https://github.com/andbron/yaml-docs
     description: Automatically generate markdown documentation for yaml charts
     install: |
       bin.install "yaml-docs"
@@ -69,8 +69,8 @@ dockers:
       - --platform=linux/amd64
       - --label=org.opencontainers.image.title={{ .ProjectName }}
       - --label=org.opencontainers.image.description={{ .ProjectName }}
-      - --label=org.opencontainers.image.url=https://github.com/theEndBeta/{{ .ProjectName }}
-      - --label=org.opencontainers.image.source=https://github.com/theEndBeta/{{ .ProjectName }}
+      - --label=org.opencontainers.image.url=https://github.com/andbron/{{ .ProjectName }}
+      - --label=org.opencontainers.image.source=https://github.com/andbron/{{ .ProjectName }}
       - --label=org.opencontainers.image.version={{ .Version }}
       - --label=org.opencontainers.image.created={{ time "2006-01-02T15:04:05Z07:00" }}
       - --label=org.opencontainers.image.revision={{ .FullCommit }}
@@ -84,8 +84,8 @@ dockers:
       - --platform=linux/arm64
       - --label=org.opencontainers.image.title={{ .ProjectName }}
       - --label=org.opencontainers.image.description={{ .ProjectName }}
-      - --label=org.opencontainers.image.url=https://github.com/theEndBeta/{{ .ProjectName }}
-      - --label=org.opencontainers.image.source=https://github.com/theEndBeta/{{ .ProjectName }}
+      - --label=org.opencontainers.image.url=https://github.com/andbron/{{ .ProjectName }}
+      - --label=org.opencontainers.image.source=https://github.com/andbron/{{ .ProjectName }}
       - --label=org.opencontainers.image.version={{ .Version }}
       - --label=org.opencontainers.image.created={{ time "2006-01-02T15:04:05Z07:00" }}
       - --label=org.opencontainers.image.revision={{ .FullCommit }}

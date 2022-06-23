@@ -24,8 +24,8 @@ jobs:
       - name: Log into quay,io
         uses: redhat-actions/podman-login@v1
         with:
-          username: theendbeta+theendbeta_github
-          password: ${{ secrets.THEENDBETA_QUAY }}
+          username: andbron+andbron_github
+          password: ${{ secrets.andbron_QUAY }}
           registry: quay.io
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2

@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/theEndBeta/yaml-docs/pkg/document"
-	"github.com/theEndBeta/yaml-docs/pkg/helm"
+	"github.com/andbron/yaml-docs/pkg/document"
+	"github.com/andbron/yaml-docs/pkg/helm"
 )
 
 func retrieveInfoAndPrintDocumentation(valuesFiles []string, templateFiles []string, waitGroup *sync.WaitGroup, dryRun bool) {
