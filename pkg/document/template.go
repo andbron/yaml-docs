@@ -24,10 +24,10 @@ func getValuesTableTemplates() string {
 	valuesSectionBuilder.WriteString(`{{ define "docs.valuesHeader" }}## Values{{ end }}`)
 
 	valuesSectionBuilder.WriteString(`{{ define "docs.valuesTable" }}`)
-	valuesSectionBuilder.WriteString("| Key | Type | Default | Description |\n")
-	valuesSectionBuilder.WriteString("|-----|------|---------|-------------|\n")
+	valuesSectionBuilder.WriteString("| Key | Type | Description |\n")
+	valuesSectionBuilder.WriteString("|-----|------|-------------|\n")
 	valuesSectionBuilder.WriteString("  {{- range .Values }}")
-	valuesSectionBuilder.WriteString("\n| {{ .Key }} | {{ .Type }} | {{ .Default }} | {{ .Description }} |")
+	valuesSectionBuilder.WriteString("\n| {{ .Key }} | {{ .Type }} | {{ .Description }} |")
 	valuesSectionBuilder.WriteString("  {{- end }}")
 	valuesSectionBuilder.WriteString("{{ end }}")
 
